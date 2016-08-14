@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TSFinanceLigaNet" verbose="1" >
+
+    <test name="StartTest" >
+        <classes>
+            <class name="StartTest"/>
+        </classes>
+
+    </test>
+
+
+    <test name="SalaryCalculateScenario" >
+        <groups>
+            <run>
+                <include name="P1"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="SalaryCalculateScenario"/>
+        </classes>
+    </test>
+
+
+    <test name="HourlyCalculatorScenario" >
+        <classes>
+            <class name="HourlyCalculatorScenario"/>
+        </classes>
+    </test>
+
+</suite>

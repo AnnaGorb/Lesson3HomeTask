@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="SalaryPayment" verbose="1" >
 
-    <test name="StartTest" >
+    <test name="Testing" >
         <groups>
             <run>
                 <include name="P1"/>
@@ -9,9 +9,11 @@
         </groups>
         <classes>
             <class name="StartTest"/>
-            <class name="SalaryCalculateScenario"/>
-            <class name="HourlyCalculatorScenario"/>
-    </classes>
-     </test>
+        </classes>
+
+    </test>
+
+
+
 
 </suite>
